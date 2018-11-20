@@ -20,7 +20,7 @@ toaddy: <your email address>
 
 # If you want to use the "Cool tunes" link on the /pages/contact-success.html page
 # set this:
-spotifyurl: <some playlist, doesn't have to be spotify>
+spotifyurl: https://open.spotify.com/user/patoguereque/playlist/4ur2Or5v9uUNW3SJqKHR1o?si=GyKyQ5drSLOF3FMxQGur3Q
 
 # If you've added more vendor contributions that are only applicable to
 # posts on your specific site, you can add to the "credits" list here,

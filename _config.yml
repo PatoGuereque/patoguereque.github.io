@@ -11,14 +11,14 @@
 # (Using that method instead of site.owner, in case your posts get cloned with your repo.)
 
 # Site settings
-title: _site name_
-description: _description_
+title: Pato Güereque
+description: Un portafolio de José Patricio Güereque de la Garza
 owner:
-  name: _your name_ # or company name
-  url: "http://example.com" # your URL
+  name: Patricio Güereque # or company name
+  url: "https://patoguereque.com" # your URL
 first_published: 2010 # if migrating another site, the year of your first publish
                       # Must be a 4-digit integer year (math is used on it)
-url: "http://example.com" # the base hostname & protocol for this site
+url: "https://patoguereque.com" # the base hostname & protocol for this site
 baseurl: "" # the subpath of your site, e.g. /blog
             # Note you'll have to move your robots.txt to the root if you want it used.
             # And list multiple sitemaps if there are other subdirectories you want indexed
@@ -28,24 +28,27 @@ lang: en-us # used in HTML lang attributes
 # on landing page
 # - set the greeting only if you want to display the first green section
 greeting:
-  title: _Your greeting_  
-  text: _Your detailed greeting text_
+  title: ¡Hola!
+  text: >
+    Mi nombre es José Patricio Güereque.
+    Actualmente estudio la carrera de ITC en el Tecnológico de Monterrey.
+    Espero que les guste mi portafolio
 # - displayed at the bottom
-closing-head: _Your closing_
-closing-para: _Your detailed closing_
+closing-head: ¡Gracias por visitar!
+closing-para: Se libre de contactarme
 
 # on all pages (and the first three you list display with greeting, if included)
 social:
-  twitter: https://twitter.com/_username_
-  github: https://github.com/_username_
-  linkedin-square: https://linkedin.com/in/_username_
-  facebook-official: https://facebook.com/_username_
-  google-plus-square: https://plus.google.com/u/0/+_username_
-  email: /contact/ # you can configure and use this contact page or use your email addy
+#  twitter: https://twitter.com/patoguereque
+  github: https://github.com/patoguereque
+  #linkedin-square: https://linkedin.com/in/_username_
+  facebook-official: https://facebook.com/patoguereque
+  #google-plus-square: https://plus.google.com/u/0/+_username_
+  email: mailto:patoguereque@gmail.com # you can configure and use this contact page or use your email addy
   #flickr:
   #instagram:
   #youtube-square:
-  #spotify:
+  spotify: https://open.spotify.com/user/patoguereque?si=cvrmsJlmSBCDNU-FoNsArQ
   #stack-overflow:
   #vimeo:
   #reddit:
@@ -53,7 +56,7 @@ social:
   #delicious:
   #pied-piper:
   #digg:
-  #soundcloud:
+  soundcloud: https://soundcloud.com/pato-guereque
   #deviantart:
   #angellist:
   #tumblr-square:
@@ -77,7 +80,7 @@ social:
   #amazon:
 
 # - title for your blog's featured posts
-features-title: Featured topics
+features-title: Posts de mi blog
 
 # if you use this repo's `ruby compose.rb` script to initiate new posts, put the
 # command to invoke your editor here. (I didn't spend time dealing with spaces
@@ -85,7 +88,7 @@ features-title: Featured topics
 # environment, I just put a subl.cmd file in my PATH that points to the full
 # path to Sublime's subl.exe.) Also, put your most common post extension.
 compose:
-  editor: subl
+  editor: atom
   extension: md
 
 # choose where to put back and next links:
